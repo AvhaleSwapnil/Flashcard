@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🗂️ FlashCard Pro
 
-## Getting Started
+FlashCard Pro is a state-of-the-art learning application built with **Next.js**. This project was inspired by the [Roadmap.sh Frontend Challenge](https://roadmap.sh/projects/flashcards) and is designed to help developers master interactive state management and reusable component architecture.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dynamic Flashcards**: 20 pre-defined cards covering core JavaScript concepts like Hoisting, Closures, and Promises.
+- **Interactive Experience**: Smooth flipping animation to reveal answers with a single click.
+- **Progress Tracking**: A sleek, real-time progress bar that visualizes your learning journey.
+- **Seamless Navigation**: Intuitive "Next" and "Previous" controls with smart loop-back functionality.
+- **Responsive Design**: A fully fluid interface that looks premium on desktops, tablets, and mobile devices.
+- **Dark Mode Ready**: Built-in support for high-contrast dark aesthetics.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Screenshots
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Flashcard Before Answer (show answer on click)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **Engine**: [Turbopack](https://nextjs.org/docs/app/api-reference/turbopack) for blazing fast development.
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) for modern, utility-first UI.
+- **Icons/Components**: Custom-built reusable React components.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🏁 Getting Started
 
-## Deploy on Vercel
+### Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Node.js 18.x or later
+- npm / yarn / pnpm
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/flashcard-pro.git
+   cd flashcard-pro
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Explore**:
+   Open [http://localhost:3000](http://localhost:3000) in your browser to start learning!
+
+## 📂 Project Structure
+
+- `/app`: Main application routes and layout.
+- `/components`: Modular UI elements (ProgressBar, Navigation, Flashcard).
+- `/lib`: Data layer and utility functions.
+- `/public`: Static assets and icons.
+
+## 📝 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+*Created for the [Roadmap.sh](https://roadmap.sh) Frontend Developer Challenge.*
