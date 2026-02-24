@@ -13,8 +13,14 @@ FlashCard Pro is a state-of-the-art learning application built with **Next.js**.
 
 ## 📸 Screenshots
 
-1. Flashcard Before Answer (show answer on click)
+1. Flashcard Before Answer (show answer)
+<img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/3400d173-4de5-4eac-8039-df07c1af6f5d" />
 
+2. Flashcard After Answer (hide answer)
+   <img width="1918" height="866" alt="image" src="https://github.com/user-attachments/assets/ba510b3d-7465-4af9-813d-011a4a2b4864" />
+
+4. Responsive View
+   <img width="357" height="757" alt="image" src="https://github.com/user-attachments/assets/a65d251b-10d2-4998-bd61-a8723c217154" />
 
 
 ## 🛠️ Tech Stack
